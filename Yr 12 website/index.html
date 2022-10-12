@@ -22,44 +22,205 @@
     </header>
 
     <nav>
-
-        <a href="Recipes.html">What are the effects of food waste?</a>
         <a href="index.html">Home</a>
+        <a href="effects.html">What are the effects of food waste?</a>
         <a href="Information.html">Ways to reuse bread</a>
-        <a href="Interviews.html">Recipes</a>
+        <a href="effects.html">Recipes</a>
       
 
     </nav>
 
     <h2>Welcome</h2>
 
-    <div class="mycols">
-        <section class="col-one">
-            <h4>What Is Food waste?</h4>
+   
+            <h4>What Is Love Food Hate Waste?</h4>
         <ul>
-            <h3><p>The Art of Food is a healthy food website that includes alternate recipes that not only
+            <h3><p>Love Food Hate Waste is a healthy food website that includes alternate recipes that not only
                 tastes amazing but it also makes you feel amazing! There are recipes that you can follow and images that you can relate to.
                 The information page give you tips and helpful information to help you to not only make healthy and alternate meals/snacks, it gives you ways
                 to maintain eating healthy in your everyday lives. If you view the interview page you can get an insight into the one and only
-                famous cheif Jaime Oliver. You can learn about how Jaime Oliver's career started and his background.</p></h3>
+                famous cheif Jaime Oliver. You can learn about how Jaime Oliver's career started and his background. There are two main kinds of wasted food: food loss and food waste.
+                 Food loss is the bigger category, and incorporates any edible food that goes uneaten at any stage. In addition to food that’s uneaten in homes and stores, this includes crops left in the field, 
+                 
+            </p></h3>
             
         </ul>
-            <img src="pictures/chad-montano-eeqbbemH9-c-unsplash.jpg" alt="a picture of pancakes">
+     
+
+      
+            <div class="slideshow-container"> 
+    
+      
+
+                <div class="mySlides fade"> 
+              
+                  
+              
+                  <img src="pictures/monika-grabkowska-P1aohbiT-EY-unsplash.jpg" style="width:100%"> 
+              
+              
+                </div> 
+              
+               
+              
+                <div class="mySlides fade"> 
+              
+                   
+              
+                  <img src="pictures/brooke-lark-M4E7X3z80PQ-unsplash (1).jpg" style="width:100%"> 
+              
+            
+              
+                </div> 
+              
+               
+              
+                <div class="mySlides fade"> 
+              
+                   
+              
+                  <img src="pictures/ting-tian-_79ZJS8pV70-unsplash.jpg" style="width:100%"> 
+              
+        
+              
+                </div> 
+              
+                 
+              
+                <div class="mySlides fade"> 
+              
+                 
+              
+                  <img src="pictures/eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash.jpg"width:100%"> 
+              
+                  
+              
+                </div> 
+              
+                
+              
+                
+              
+               <div class="mySlides fade"> 
+              
+                 
+              
+                  <img src="pictures/ting-tian-al9eh9QkdPA-unsplash.jpg" style="width:100%"> 
+              
+                  
+              
+                </div> 
+              
+                 
+              
+                <div class="mySlides fade"> 
+              
+                 
+              
+                  <img src="pictures/brooke-lark-1Rm9GLHV0UA-unsplash.jpg" style="width:100%"> 
+              
+                
+              
+                </div> 
+              
+                 
+              
+               
+              
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a> 
+              
+                <a class="next" onclick="plusSlides(1)">&#10095;</a> 
+              
+              </div> 
+              
+               
+              
+               
+              
+              <div style="text-align:center"> 
+              
+                <span class="dot" onclick="currentSlide(1)"></span>  
+              
+                <span class="dot" onclick="currentSlide(2)"></span>  
+              
+                <span class="dot" onclick="currentSlide(3)"></span>  
+              
+                <span class="dot" onclick="currentSlide(4)"></span>  
+              
+                <span class="dot" onclick="currentSlide(5)"></span>  
+              
+                <span class="dot" onclick="currentSlide(6)"></span>  
+              
+              </div> 
+              
+               
+              
+              <script> 
+              
+              var slideIndex = 1; 
+              
+              showSlides(slideIndex); 
+              
+               
+              
+              function plusSlides(n) { 
+              
+                showSlides(slideIndex += n); 
+              
+              } 
+              
+               
+              
+              function currentSlide(n) { 
+              
+                showSlides(slideIndex = n); 
+              
+              } 
+              
+               
+              
+              function showSlides(n) { 
+              
+                var i; 
+              
+                var slides = document.getElementsByClassName("mySlides"); 
+              
+                var dots = document.getElementsByClassName("dot"); 
+              
+                if (n > slides.length) {slideIndex = 1}  
+              
+                if (n < 1) {slideIndex = slides.length} 
+              
+                for (i = 0; i < slides.length; i++) { 
+              
+                    slides[i].style.display = "none";  
+              
+                } 
+              
+                for (i = 0; i < dots.length; i++) { 
+              
+                    dots[i].className = dots[i].className.replace(" active", ""); 
+              
+                } 
+              
+                slides[slideIndex-1].style.display = "block";  
+              
+                dots[slideIndex-1].className += " active"; 
+              
+              } 
+              
+               
+              
+               
+              
+               
+              
+              </script> 
+        
         </section>
 
-        <section class= "col-two">
-        <h4>Why Should We Reduce Food Waste?</h4>
-    <ul>
-        <h3><p>Being overweight or having obesity are associated with increased risk of these health conditions, per the CDC, so weight loss can 
-            be important if you have a high body mass index (BMI). Fortunately, following a high-quality diet in which you pay attention
-            to portion sizes can also help you reach a healthy weight, according to the Mayo Clinic. Another piece 
-            of the puzzle: eating mindfully. Stop eating when you’re full, and don't eat too fast or for emotional reasons. Being able 
-        to maintain a healthy diet throughout your whole life is a very important skill to have.</p></h3>
-    </ul>
-        <img src="pictures/Screen Shot 2021-07-08 at 1.44.44 PM.png" alt="">
-        </section>
-
-    </div>
+      
+</section>
     <footer>
         <h4>Contacts</h4>
     <h5>Phone: 0800-555-321</h5>
